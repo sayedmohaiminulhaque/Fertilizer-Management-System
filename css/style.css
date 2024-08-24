@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* page-1(banner-Page) */
+.banner-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pexels-balazsimon-6874481.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 50px;
+    color: white;
+    padding: 20px;
+}
+.navbar a:hover
+{
+    background-color: white;
+}
+.wc{
+   height: 80vh;
+   display: flex;
+   align-items: center;
+}
+
+.wc p{
+    font-size: 70px;
+    font-weight: bolder;
+    color:white;
+}
+
+/* This is for login  page... */
+
+.all{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pexels-balazsimon-6874481.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1{
+    padding: 50px;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.hg:hover{
+    background-color: white;
+}
